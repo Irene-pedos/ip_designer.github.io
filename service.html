@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-mode">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services - IP Designer</title>
+  <meta name="description" content="Professional design and development services offered by Irene Pedos">
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Inter:wght@100..900&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <!-- Loading Bar -->
+  <div class="loading-bar">
+  </div>
+
+  <div class="indexdarkmode-container">
+    <!-- Header Navigation -->
+    <header class="indexdarkmode-nav">
+      <nav class="indexdarkmode-nav-bar">
+        <div class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="indexdarkmode-logo">
+          <img src="/Images/IPD logo white.svg" alt="IP Designer Logo" class="logo-dark" />
+          <img src="/Images/IPD logo blue.svg" alt="IP Designer Logo" class="logo-light" />
+        </div>
+
+        <div class="indexdarkmode-nav-links">
+          <ul>
+            <li><a href="index.html#home" class="nav-link" data-section="home"><i class="fas fa-home nav-icon"></i>
+                Home</a></li>
+            <li><a href="index.html#services" class="nav-link active" data-section="services"><i
+                  class="fas fa-code nav-icon"></i> Services</a></li>
+            <li><a href="index.html#about" class="nav-link" data-section="about"><i class="fas fa-user nav-icon"></i>
+                About</a></li>
+            <li><a href="index.html#projects" class="nav-link" data-section="projects"><i
+                  class="fas fa-project-diagram nav-icon"></i> Projects</a></li>
+            <li><a href="index.html#contact" class="nav-link" data-section="contact"><i
+                  class="fas fa-envelope nav-icon"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="indexdarkmode-darkmode-toggle">
+          <button aria-label="Toggle Dark Mode" class="indexdarkmode-toggle-button" id="darkModeToggle">
+            <span class="indexdarkmode-toggle-circle"></span>
+            <i class="fas fa-sun indexdarkmode-sun-icon"></i>
+            <i class="fas fa-moon indexdarkmode-moon-icon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Services Page Section -->
+      <section id="services-page" class="services-page-section">
+        <div class="section-header">
+          <h2 class="section-title">My Services</h2>
+          <p class="section-subtitle">Comprehensive Design & Development Solutions</p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid expanded">
+          <!-- Web Development -->
+          <div class="service-card">
+            <i class="fas fa-code service-icon"></i>
+            <h3>Web Development</h3>
+            <p>Custom websites built with modern technologies like HTML5, CSS3, JavaScript, and responsive frameworks. I
+              create fast, accessible, and SEO-friendly websites that work across all devices.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Responsive Design</li>
+              <li><i class="fas fa-check"></i> CMS Integration</li>
+              <li><i class="fas fa-check"></i> Performance Optimization</li>
+            </ul>
+          </div>
+
+          <!-- Logo Design -->
+          <div class="service-card">
+            <i class="fas fa-palette service-icon"></i>
+            <h3>Logo Design</h3>
+            <p>Strategic brand identities that capture your essence. I craft memorable logos that communicate your
+              values at a glance and work across all media.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Multiple Concepts</li>
+              <li><i class="fas fa-check"></i> Brand Guidelines</li>
+              <li><i class="fas fa-check"></i> All File Formats</li>
+            </ul>
+          </div>
+
+          <!-- Video Editing -->
+          <div class="service-card">
+            <i class="fas fa-video service-icon"></i>
+            <h3>Video Editing</h3>
+            <p>Professional video production including editing, color grading, motion graphics, and sound design.
+              Perfect for promotional content, social media, and corporate videos.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> 4K Resolution</li>
+              <li><i class="fas fa-check"></i> Motion Graphics</li>
+              <li><i class="fas fa-check"></i> Color Correction</li>
+            </ul>
+          </div>
+
+          <!-- Graphic Design -->
+          <div class="service-card">
+            <i class="fas fa-paint-brush service-icon"></i>
+            <h3>Graphic Design</h3>
+            <p>Eye-catching designs for print and digital media including flyers, posters, social media graphics, and
+              marketing materials that convert viewers into customers.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Print & Digital</li>
+              <li><i class="fas fa-check"></i> Social Media Assets</li>
+              <li><i class="fas fa-check"></i> Brand Consistency</li>
+            </ul>
+          </div>
+
+          <!-- UI/UX Design -->
+          <div class="service-card">
+            <i class="fas fa-object-group service-icon"></i>
+            <h3>UI/UX Design</h3>
+            <p>User-centered interface designs with intuitive navigation and seamless user experiences. From wireframes
+              to high-fidelity prototypes.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> User Research</li>
+              <li><i class="fas fa-check"></i> Wireframing</li>
+              <li><i class="fas fa-check"></i> Prototyping</li>
+            </ul>
+          </div>
+
+          <!-- Brand Identity -->
+          <div class="service-card">
+            <i class="fas fa-vector-square service-icon"></i>
+            <h3>Brand Identity</h3>
+            <p>Complete brand packages including logo, color palette, typography, and visual guidelines to ensure
+              consistent brand representation.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Style Guides</li>
+              <li><i class="fas fa-check"></i> Brand Assets</li>
+              <li><i class="fas fa-check"></i> Implementation</li>
+            </ul>
+          </div>
+
+          <!-- Print Design -->
+          <div class="service-card">
+            <i class="fas fa-print service-icon"></i>
+            <h3>Print Design</h3>
+            <p>High-quality designs for business cards, brochures, banners, and other print materials with print-ready
+              files.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Business Cards</li>
+              <li><i class="fas fa-check"></i> Brochures</li>
+              <li><i class="fas fa-check"></i> Large Format</li>
+            </ul>
+          </div>
+
+          <!-- Motion Graphics -->
+          <div class="service-card">
+            <i class="fas fa-film service-icon"></i>
+            <h3>Motion Graphics</h3>
+            <p>Dynamic animations and visual effects for videos, presentations, and digital content that engage your
+              audience.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Animated Logos</li>
+              <li><i class="fas fa-check"></i> Explainer Videos</li>
+              <li><i class="fas fa-check"></i> Social Media Ads</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Custom Services CTA -->
+        <div class="custom-services-cta">
+          <div class="cta-content">
+            <h3>Need Something Custom?</h3>
+            <p>I offer tailored solutions to meet your specific requirements. Let's discuss how I can help bring your
+              unique vision to life.</p>
+            <a href="index.html#contact" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Get a Custom Quote
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Information</h3>
+          <ul>
+            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Me</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+            <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Graphic Design</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Video Editing</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="javascript:void(0)" id="faqTrigger2" class="faq-trigger"><i class="fas fa-chevron-right"></i>
+                FAQ</a></li>
+            <li><a href="javascript:void(0)" id="privacyTrigger2" class="privacy-trigger"><i
+                  class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+            <li><a href="javascript:void(0)" id="termsTrigger2" class="terms-trigger"><i
+                  class="fas fa-chevron-right"></i> Terms</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <ul>
+            <li><i class="fas fa-phone-alt"></i> +250 791789430</li>
+            <li><i class="fas fa-envelope"></i> ishimwepedos@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Huye, Rwanda</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-logo">
+          <img src="/Images/IPD logo white.svg" alt="Logo" class="logo-dark" />
+          <img src="/Images/IPD logo blue.svg" alt="Logo" class="logo-light" />
+        </div>
+
+        <div class="footer-legal">
+          <span>&copy; 2025 Irene Pedos. All rights reserved.</span>
+          <div class="footer-links">
+            <a href="javascript:void(0)" id="faqTrigger" class="faq-trigger">FAQ</a>
+            <a href="javascript:void(0)" id="privacyTrigger" class="privacy-trigger">Privacy</a>
+            <a href="javascript:void(0)" id="termsTrigger" class="terms-trigger">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Popup Modals -->
+  <div id="faqOverlay" class="faq-overlay">
+    <div class="faq-popup">
+      <h2>Frequently Asked Questions</h2>
+
+      <!-- Web Development Questions -->
+      <div class="faq-item">
+        <div class="faq-question">What web development services do you offer?</div>
+        <div class="faq-answer">We offer full-stack web development including front-end (HTML, CSS, JavaScript) and
+          back-end (Node.js, PHP) development, as well as CMS solutions like WordPress.</div>
+      </div>
+
+      <!-- Logo Design Questions -->
+      <div class="faq-item">
+        <div class="faq-question">What's included in your logo design service?</div>
+        <div class="faq-answer">Our logo design package includes initial concepts, revisions, and final delivery in
+          multiple formats (PNG, JPG, SVG, AI). We provide 3 initial concepts and 2 rounds of revisions.</div>
+      </div>
+
+      <!-- Video Editing Questions -->
+      <div class="faq-item">
+        <div class="faq-question">What types of video editing do you specialize in?</div>
+        <div class="faq-answer">We specialize in promotional videos, social media content, YouTube videos, and
+          corporate
+          presentations. We can handle color correction, audio enhancement, and special effects.</div>
+      </div>
+
+      <!-- Flyer & Poster Questions -->
+      <div class="faq-item">
+        <div class="faq-question">What file formats will I receive for my flyer/poster?</div>
+        <div class="faq-answer">We deliver print-ready PDFs (CMYK) for professional printing, as well as
+          web-optimized
+          JPG/PNG versions for digital use. Source files (AI/PSD) are available upon request.</div>
+      </div>
+
+      <!-- General Questions -->
+      <div class="faq-item">
+        <div class="faq-question">How long does a typical project take?</div>
+        <div class="faq-answer">Timelines vary by project: logos take 3-7 days, websites 2-6 weeks, video editing
+          1-2
+          weeks, and flyers/posters 3-5 days. Rush services are available for an additional fee.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What are your payment terms?</div>
+        <div class="faq-answer">We require a 50% deposit to begin work, with the balance due upon completion. For
+          larger
+          projects, we can arrange milestone payments.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Do you offer revisions?</div>
+        <div class="faq-answer">Yes! We include 2 rounds of revisions in all our packages. Additional revisions can
+          be
+          arranged for a small fee.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How do I get started?</div>
+        <div class="faq-answer">Simply contact us via email or phone to discuss your project. We'll provide a free
+          consultation and quote with no obligation.</div>
+      </div>
+
+      <button class="faq-close-btn" id="faqCloseBtn">Close FAQ</button>
+    </div>
+  </div>
+
+  <div id="privacyOverlay" class="privacy-overlay">
+    <div class="privacy-popup">
+      <h2>Privacy Policy</h2>
+
+      <div class="privacy-content">
+        <h3>1. Information We Collect</h3>
+        <p>We may collect the following types of information when you use our services:</p>
+        <ul>
+          <li>Contact information (name, email, phone number)</li>
+          <li>Project details and requirements</li>
+          <li>Communication records</li>
+          <li>Payment information (processed securely through third-party providers)</li>
+        </ul>
+
+        <h3>2. How We Use Your Information</h3>
+        <p>Your information is used to:</p>
+        <ul>
+          <li>Provide and improve our services</li>
+          <li>Communicate about your projects</li>
+          <li>Process transactions</li>
+          <li>Respond to inquiries</li>
+          <li>Comply with legal obligations</li>
+        </ul>
+
+        <h3>3. Data Protection</h3>
+        <p>We implement appropriate security measures including:</p>
+        <ul>
+          <li>Secure servers and encryption</li>
+          <li>Limited access to personal data</li>
+          <li>Regular security assessments</li>
+        </ul>
+
+        <h3>4. Data Retention</h3>
+        <p>We retain personal data only as long as necessary for:</p>
+        <ul>
+          <li>Ongoing projects and follow-ups</li>
+          <li>Legal and accounting requirements</li>
+          <li>Portfolio purposes (with client consent)</li>
+        </ul>
+
+        <h3>5. Your Rights</h3>
+        <p>You have the right to:</p>
+        <ul>
+          <li>Access your personal data</li>
+          <li>Request correction or deletion</li>
+          <li>Object to processing</li>
+          <li>Withdraw consent</li>
+        </ul>
+
+        <h3>6. Third-Party Services</h3>
+        <p>We may use trusted third-party services for:</p>
+        <ul>
+          <li>Payment processing</li>
+          <li>Cloud storage</li>
+          <li>Communication tools</li>
+          <li>Analytics (anonymous data only)</li>
+        </ul>
+
+        <h3>7. Cookies and Tracking</h3>
+        <p>Our website may use cookies for:</p>
+        <ul>
+          <li>Basic functionality</li>
+          <li>Analytics (anonymous)</li>
+          <li>No third-party tracking cookies are used</li>
+        </ul>
+
+        <h3>8. Changes to This Policy</h3>
+        <p>We may update this policy periodically. Significant changes will be communicated to current clients.</p>
+
+        <h3>9. Contact Us</h3>
+        <p>For privacy-related inquiries, please contact us at:</p>
+        <ul>
+          <li>Email: ishimwepedos@gmail.com</li>
+          <li>Phone: +250 791789430</li>
+          <li>Address: Huye, Rwanda</li>
+        </ul>
+      </div>
+
+      <button class="privacy-close-btn" id="privacyCloseBtn">I Understand</button>
+    </div>
+
+    <div id="termsOverlay" class="terms-overlay">
+      <div class="terms-popup">
+        <h2>Terms and Conditions</h2>
+
+        <div class="terms-content">
+          <h3>1. Acceptance of Terms</h3>
+          <p>By accessing or using our portfolio services, you agree to be bound by these Terms and Conditions. If
+            you
+            do
+            not agree with any part of these terms, you may not use our services.</p>
+
+          <h3>2. Services Provided</h3>
+          <p>We offer the following services through our portfolio:</p>
+          <ul>
+            <li>Web Development</li>
+            <li>Logo Design</li>
+            <li>Video Editing</li>
+            <li>Flyer & Poster Design</li>
+          </ul>
+
+          <h3>3. Intellectual Property</h3>
+          <p>All content in this portfolio, including designs, text, graphics, and images, is our intellectual
+            property
+            and protected by copyright laws. You may not reproduce, distribute, or create derivative works
+            without
+            our
+            express permission.</p>
+
+          <h3>4. Client Responsibilities</h3>
+          <p>Clients agree to:</p>
+          <ul>
+            <li>Provide accurate and complete project requirements</li>
+            <li>Make timely payments as agreed</li>
+            <li>Provide feedback within reasonable timeframes</li>
+            <li>Respect our creative process and expertise</li>
+          </ul>
+
+          <h3>5. Payment Terms</h3>
+          <p>Our standard payment terms require:</p>
+          <ul>
+            <li>50% deposit before work begins</li>
+            <li>50% balance upon project completion</li>
+            <li>Additional fees for rush services or excessive revisions</li>
+          </ul>
+
+          <h3>6. Revisions Policy</h3>
+          <p>We include 2 rounds of revisions in our standard packages. Additional revisions will be billed at our
+            standard hourly rate.</p>
+
+          <h3>7. Delivery Timeline</h3>
+          <p>Project timelines vary based on complexity. Typical delivery times are:</p>
+          <ul>
+            <li>Logos: 3-7 business days</li>
+            <li>Websites: 2-6 weeks</li>
+            <li>Video editing: 1-2 weeks</li>
+            <li>Flyers/posters: 3-5 business days</li>
+          </ul>
+
+          <h3>8. Limitation of Liability</h3>
+          <p>We shall not be liable for any indirect, incidental, or consequential damages arising from the use of
+            our
+            services.</p>
+
+          <h3>9. Changes to Terms</h3>
+          <p>We reserve the right to modify these terms at any time. Continued use of our services constitutes
+            acceptance
+            of the modified terms.</p>
+
+          <h3>10. Governing Law</h3>
+          <p>These terms shall be governed by and construed in accordance with the laws of Rwanda.</p>
+        </div>
+
+        <button class="terms-close-btn" id="termsCloseBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="loading.js"></script>
+  <script src="theme-toggle.js"></script>
+  <script src="navigation.js"></script>
+  <script src="form-handler.js"></script>
+  <script src="popups.js"></script>
+</body>
+
+</html>

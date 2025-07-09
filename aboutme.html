@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-mode">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - IP Designer</title>
+  <meta name="description"
+    content="Professional background and skills of Irene Pedos, Graphic Designer and Web Developer">
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Inter:wght@100..900&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <!-- Loading Bar -->
+  <div class="loading-bar">
+    <div class="loading-progress"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="indexdarkmode-nav">
+    <nav class="indexdarkmode-nav-bar">
+      <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="indexdarkmode-logo">
+        <img src="/Images/IPD logo white.svg" alt="IP Designer Logo" class="logo-dark" />
+        <img src="/Images/IPD logo blue.svg" alt="IP Designer Logo" class="logo-light" />
+      </div>
+
+      <div class="indexdarkmode-nav-links">
+        <ul>
+          <li><a href="index.html#home" class="nav-link" data-section="home"><i class="fas fa-home nav-icon"></i>
+              Home</a></li>
+          <li><a href="index.html#services" class="nav-link" data-section="services"><i
+                class="fas fa-code nav-icon"></i> Services</a></li>
+          <li><a href="index.html#about" class="nav-link active" data-section="about"><i
+                class="fas fa-user nav-icon"></i> About</a></li>
+          <li><a href="index.html#projects" class="nav-link" data-section="projects"><i
+                class="fas fa-project-diagram nav-icon"></i> Projects</a></li>
+          <li><a href="index.html#contact" class="nav-link" data-section="contact"><i
+                class="fas fa-envelope nav-icon"></i> Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="indexdarkmode-darkmode-toggle">
+        <button aria-label="Toggle Dark Mode" class="indexdarkmode-toggle-button" id="darkModeToggle">
+          <span class="indexdarkmode-toggle-circle"></span>
+          <i class="fas fa-sun indexdarkmode-sun-icon"></i>
+          <i class="fas fa-moon indexdarkmode-moon-icon"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- About Me Section -->
+  <main class="aboutme-container">
+    <section id="about-me" class="aboutme-section">
+      <!-- Profile Section -->
+      <div class="profile-section">
+        <div class="profile-image-container">
+          <img src="public/external/passporttransparent23790-ybs9-600w.png" alt="Irene Pedos" class="profile-image" />
+        </div>
+
+        <div class="profile-content">
+          <h1 class="aboutme-title">About Me</h1>
+          <p class="aboutme-subtitle">Graphic Designer & Web Developer</p>
+
+          <div class="profile-details">
+            <div class="detail-item">
+              <i class="fas fa-user-tie detail-icon"></i>
+              <div>
+                <h4>Experience</h4>
+                <p>2+ Years Professional Experience</p>
+              </div>
+            </div>
+
+            <div class="detail-item">
+              <i class="fas fa-project-diagram detail-icon"></i>
+              <div>
+                <h4>Projects</h4>
+                <p>30+ Completed Projects</p>
+              </div>
+            </div>
+
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt detail-icon"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Huye, Rwanda</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="aboutme-description">
+            I'm Irene Pedos ISHIMWE, a passionate creative professional specializing in graphic design and web
+            development.
+            With a keen eye for aesthetics and strong technical skills, I create digital experiences that are both
+            visually stunning and highly functional. My approach combines artistic vision with technical precision to
+            deliver solutions that meet both business objectives and user needs.
+          </p>
+        </div>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="skills-section">
+        <div class="section-header">
+          <h2 class="section-title">My Skills</h2>
+          <p class="section-subtitle">Tools and Technologies I Master</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Design Skills -->
+          <div class="skill-category">
+            <h3 class="category-title"><i class="fas fa-paint-brush"></i> Design Skills</h3>
+            <div class="skills-container">
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fas fa-palette skill-icon"></i>
+                  <h4>Photoshop</h4>
+                </div>
+                <p>Expert in image manipulation, compositing, and creating UI elements.</p>
+                <div class="proficiency-bar">
+                  <div class="proficiency-level" data-proficiency="90%"></div>
+                </div>
+                <span class="proficiency-text">90% Proficiency</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fas fa-pen-nib skill-icon"></i>
+                  <h4>Illustrator</h4>
+                </div>
+                <p>Vector graphics, logo creation, and detailed illustrations.</p>
+                <div class="proficiency-bar">
+                  <div class="proficiency-level" data-proficiency="90%"></div>
+                </div>
+                <span class="proficiency-text">90% Proficiency</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fab fa-figma skill-icon"></i>
+                  <h4>Figma</h4>
+                </div>
+                <p>UI/UX design, prototyping, and collaborative workflows.</p>
+                <div class="proficiency-bar">
+                  <div class="proficiency-level" data-proficiency="95%"></div>
+                </div>
+                <span class="proficiency-text">95% Proficiency</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Skills -->
+          <div class="skill-category">
+            <h3 class="category-title"><i class="fas fa-video"></i> Video Skills</h3>
+            <div class="skills-container">
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fas fa-film skill-icon"></i>
+                  <h4>Premiere Pro</h4>
+                </div>
+                <p>Video editing, transitions, and color grading.</p>
+                <div class="proficiency-bar">
+                  <div class="proficiency-level" data-proficiency="88%"></div>
+                </div>
+                <span class="proficiency-text">88% Proficiency</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fas fa-photo-film skill-icon"></i>
+                  <h4>After Effects</h4>
+                </div>
+                <p>Motion graphics, animation, and visual effects.</p>
+                <div class="proficiency-bar">
+                  <div class="proficiency-level" data-proficiency="70%"></div>
+                </div>
+                <span class="proficiency-text">70% Proficiency</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Development Skills -->
+          <div class="skill-category">
+            <h3 class="category-title"><i class="fas fa-code"></i> Development Skills</h3>
+            <div class="skills-container">
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fab fa-html5 skill-icon"></i>
+                  <h4>HTML5</h4>
+                </div>
+                <p>Semantic markup, responsive structures, and modern features.</p>
+                <div class="proficiency-bar">
+                  <div class="proficiency-level" data-proficiency="90%"></div>
+                </div>
+                <span class="proficiency-text">90% Proficiency</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fab fa-css3-alt skill-icon"></i>
+                  <h4>CSS3</h4>
+                </div>
+                <p>Styling, animations, and responsive design techniques.</p>
+                <div class="proficiency-bar">
+                  <div class="proficiency-level" data-proficiency="90%"></div>
+                </div>
+                <span class="proficiency-text">90% Proficiency</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fab fa-js skill-icon"></i>
+                  <h4>JavaScript</h4>
+                </div>
+                <p>Interactive elements and dynamic content.</p>
+                <div class="proficiency-bar">
+                  <div class="proficiency-level" data-proficiency="80%"></div>
+                </div>
+                <span class="proficiency-text">80% Proficiency</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fab fa-php skill-icon"></i>
+                  <h4>PHP</h4>
+                </div>
+                <p>Backend development and CMS integration.</p>
+                <div class="proficiency-bar">
+                  <div class="proficiency-level" data-proficiency="80%"></div>
+                </div>
+                <span class="proficiency-text">80% Proficiency</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-column">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="#about"><i class="fas fa-chevron-right"></i> About Me</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+          <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+          <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Graphic Design</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Video Editing</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="javascript:void(0)" id="faqTrigger2" class="faq-trigger"><i class="fas fa-chevron-right"></i>
+              FAQ</a></li>
+          <li><a href="javascript:void(0)" id="privacyTrigger2" class="privacy-trigger"><i
+                class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+          <li><a href="javascript:void(0)" id="termsTrigger2" class="terms-trigger"><i class="fas fa-chevron-right"></i>
+              Terms</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <ul>
+          <li><i class="fas fa-phone-alt"></i> +250 791789430</li>
+          <li><i class="fas fa-envelope"></i> ishimwepedos@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i> Huye, Rwanda</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-logo">
+        <img src="/Images/IPD logo white.svg" alt="Logo" class="logo-dark" />
+        <img src="/Images/IPD logo blue.svg" alt="Logo" class="logo-light" />
+      </div>
+
+      <div class="footer-legal">
+        <span>&copy; 2025 Irene Pedos. All rights reserved.</span>
+        <div class="footer-links">
+          <a href="javascript:void(0)" id="faqTrigger" class="faq-trigger">FAQ</a>
+          <a href="javascript:void(0)" id="privacyTrigger" class="privacy-trigger">Privacy</a>
+          <a href="javascript:void(0)" id="termsTrigger" class="terms-trigger">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Popup Modals -->
+  <div id="faqOverlay" class="faq-overlay">
+    <div class="faq-popup">
+      <h2>Frequently Asked Questions</h2>
+
+      <!-- Web Development Questions -->
+      <div class="faq-item">
+        <div class="faq-question">What web development services do you offer?</div>
+        <div class="faq-answer">We offer full-stack web development including front-end (HTML, CSS, JavaScript) and
+          back-end (Node.js, PHP) development, as well as CMS solutions like WordPress.</div>
+      </div>
+
+      <!-- Logo Design Questions -->
+      <div class="faq-item">
+        <div class="faq-question">What's included in your logo design service?</div>
+        <div class="faq-answer">Our logo design package includes initial concepts, revisions, and final delivery in
+          multiple formats (PNG, JPG, SVG, AI). We provide 3 initial concepts and 2 rounds of revisions.</div>
+      </div>
+
+      <!-- Video Editing Questions -->
+      <div class="faq-item">
+        <div class="faq-question">What types of video editing do you specialize in?</div>
+        <div class="faq-answer">We specialize in promotional videos, social media content, YouTube videos, and
+          corporate
+          presentations. We can handle color correction, audio enhancement, and special effects.</div>
+      </div>
+
+      <!-- Flyer & Poster Questions -->
+      <div class="faq-item">
+        <div class="faq-question">What file formats will I receive for my flyer/poster?</div>
+        <div class="faq-answer">We deliver print-ready PDFs (CMYK) for professional printing, as well as
+          web-optimized
+          JPG/PNG versions for digital use. Source files (AI/PSD) are available upon request.</div>
+      </div>
+
+      <!-- General Questions -->
+      <div class="faq-item">
+        <div class="faq-question">How long does a typical project take?</div>
+        <div class="faq-answer">Timelines vary by project: logos take 3-7 days, websites 2-6 weeks, video editing
+          1-2
+          weeks, and flyers/posters 3-5 days. Rush services are available for an additional fee.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What are your payment terms?</div>
+        <div class="faq-answer">We require a 50% deposit to begin work, with the balance due upon completion. For
+          larger
+          projects, we can arrange milestone payments.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Do you offer revisions?</div>
+        <div class="faq-answer">Yes! We include 2 rounds of revisions in all our packages. Additional revisions can
+          be
+          arranged for a small fee.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How do I get started?</div>
+        <div class="faq-answer">Simply contact us via email or phone to discuss your project. We'll provide a free
+          consultation and quote with no obligation.</div>
+      </div>
+
+      <button class="faq-close-btn" id="faqCloseBtn">Close FAQ</button>
+    </div>
+  </div>
+
+  <div id="privacyOverlay" class="privacy-overlay">
+    <div class="privacy-popup">
+      <h2>Privacy Policy</h2>
+
+      <div class="privacy-content">
+        <h3>1. Information We Collect</h3>
+        <p>We may collect the following types of information when you use our services:</p>
+        <ul>
+          <li>Contact information (name, email, phone number)</li>
+          <li>Project details and requirements</li>
+          <li>Communication records</li>
+          <li>Payment information (processed securely through third-party providers)</li>
+        </ul>
+
+        <h3>2. How We Use Your Information</h3>
+        <p>Your information is used to:</p>
+        <ul>
+          <li>Provide and improve our services</li>
+          <li>Communicate about your projects</li>
+          <li>Process transactions</li>
+          <li>Respond to inquiries</li>
+          <li>Comply with legal obligations</li>
+        </ul>
+
+        <h3>3. Data Protection</h3>
+        <p>We implement appropriate security measures including:</p>
+        <ul>
+          <li>Secure servers and encryption</li>
+          <li>Limited access to personal data</li>
+          <li>Regular security assessments</li>
+        </ul>
+
+        <h3>4. Data Retention</h3>
+        <p>We retain personal data only as long as necessary for:</p>
+        <ul>
+          <li>Ongoing projects and follow-ups</li>
+          <li>Legal and accounting requirements</li>
+          <li>Portfolio purposes (with client consent)</li>
+        </ul>
+
+        <h3>5. Your Rights</h3>
+        <p>You have the right to:</p>
+        <ul>
+          <li>Access your personal data</li>
+          <li>Request correction or deletion</li>
+          <li>Object to processing</li>
+          <li>Withdraw consent</li>
+        </ul>
+
+        <h3>6. Third-Party Services</h3>
+        <p>We may use trusted third-party services for:</p>
+        <ul>
+          <li>Payment processing</li>
+          <li>Cloud storage</li>
+          <li>Communication tools</li>
+          <li>Analytics (anonymous data only)</li>
+        </ul>
+
+        <h3>7. Cookies and Tracking</h3>
+        <p>Our website may use cookies for:</p>
+        <ul>
+          <li>Basic functionality</li>
+          <li>Analytics (anonymous)</li>
+          <li>No third-party tracking cookies are used</li>
+        </ul>
+
+        <h3>8. Changes to This Policy</h3>
+        <p>We may update this policy periodically. Significant changes will be communicated to current clients.</p>
+
+        <h3>9. Contact Us</h3>
+        <p>For privacy-related inquiries, please contact us at:</p>
+        <ul>
+          <li>Email: ishimwepedos@gmail.com</li>
+          <li>Phone: +250 791789430</li>
+          <li>Address: Huye, Rwanda</li>
+        </ul>
+      </div>
+
+      <button class="privacy-close-btn" id="privacyCloseBtn">I Understand</button>
+    </div>
+
+    <div id="termsOverlay" class="terms-overlay">
+      <div class="terms-popup">
+        <h2>Terms and Conditions</h2>
+
+        <div class="terms-content">
+          <h3>1. Acceptance of Terms</h3>
+          <p>By accessing or using our portfolio services, you agree to be bound by these Terms and Conditions. If
+            you
+            do
+            not agree with any part of these terms, you may not use our services.</p>
+
+          <h3>2. Services Provided</h3>
+          <p>We offer the following services through our portfolio:</p>
+          <ul>
+            <li>Web Development</li>
+            <li>Logo Design</li>
+            <li>Video Editing</li>
+            <li>Flyer & Poster Design</li>
+          </ul>
+
+          <h3>3. Intellectual Property</h3>
+          <p>All content in this portfolio, including designs, text, graphics, and images, is our intellectual
+            property
+            and protected by copyright laws. You may not reproduce, distribute, or create derivative works
+            without
+            our
+            express permission.</p>
+
+          <h3>4. Client Responsibilities</h3>
+          <p>Clients agree to:</p>
+          <ul>
+            <li>Provide accurate and complete project requirements</li>
+            <li>Make timely payments as agreed</li>
+            <li>Provide feedback within reasonable timeframes</li>
+            <li>Respect our creative process and expertise</li>
+          </ul>
+
+          <h3>5. Payment Terms</h3>
+          <p>Our standard payment terms require:</p>
+          <ul>
+            <li>50% deposit before work begins</li>
+            <li>50% balance upon project completion</li>
+            <li>Additional fees for rush services or excessive revisions</li>
+          </ul>
+
+          <h3>6. Revisions Policy</h3>
+          <p>We include 2 rounds of revisions in our standard packages. Additional revisions will be billed at our
+            standard hourly rate.</p>
+
+          <h3>7. Delivery Timeline</h3>
+          <p>Project timelines vary based on complexity. Typical delivery times are:</p>
+          <ul>
+            <li>Logos: 3-7 business days</li>
+            <li>Websites: 2-6 weeks</li>
+            <li>Video editing: 1-2 weeks</li>
+            <li>Flyers/posters: 3-5 business days</li>
+          </ul>
+
+          <h3>8. Limitation of Liability</h3>
+          <p>We shall not be liable for any indirect, incidental, or consequential damages arising from the use of
+            our
+            services.</p>
+
+          <h3>9. Changes to Terms</h3>
+          <p>We reserve the right to modify these terms at any time. Continued use of our services constitutes
+            acceptance
+            of the modified terms.</p>
+
+          <h3>10. Governing Law</h3>
+          <p>These terms shall be governed by and construed in accordance with the laws of Rwanda.</p>
+        </div>
+
+        <button class="terms-close-btn" id="termsCloseBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="theme-toggle.js"></script>
+  <script src="navigation.js"></script>
+  <script src="popups.js"></script>
+  <script>
+    // Animate proficiency bars when they come into view
+    document.addEventListener("DOMContentLoaded", function () {
+      const proficiencyLevels = document.querySelectorAll(".proficiency-level");
+
+      const animateBars = () => {
+        proficiencyLevels.forEach(level => {
+          const proficiency = level.getAttribute("data-proficiency");
+          level.style.width = proficiency;
+        });
+      };
+
+      // Create intersection observer
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateBars();
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      // Observe each skill category
+      document.querySelectorAll('.skill-category').forEach(category => {
+        observer.observe(category);
+      });
+
+      // Loading animation
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          document.querySelector('.loading-bar').style.opacity = '0';
+          setTimeout(function () {
+            document.querySelector('.loading-bar').style.display = 'none';
+          }, 500);
+        }, 1000);
+      });
+    });
+  </script>
+</body>
+
+</html>
